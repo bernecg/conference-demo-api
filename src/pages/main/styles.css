@@ -1,0 +1,34 @@
+/* div {
+    text-align: center;
+    height: 100vh;
+} */
+
+div#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+button.mainButton {
+    padding: 20px;
+    border-radius: 10px;
+    border-color: #da552f;
+    color: #da552f;
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+h1.loading_header {
+    color: lightgray;
+    text-align: center;
+}
+
+div.loading_div {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    justify-content: space-around;
+}
